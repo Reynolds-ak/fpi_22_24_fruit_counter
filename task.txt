@@ -1,0 +1,11 @@
+Task 1:
+Let’s put it all together.
+Write a function to return the quantity of fruits in a basket if you placed 3 fruits a day for 5 days.
+Tips:
+Your function should have a constant variable to store number of fruits per day.
+Your function should have a variable to store number of days you will be placing fruits in the basket.
+Your function should have a variable to store total fruits in the basket at the end of the 5th day.
+Using document.getElementById() show total fruits in the basket in an HTML page.
+
+Task 2:
+Write a function to show total fruits in the basket on day 3 and number of fruits in the basket on day 5. 
