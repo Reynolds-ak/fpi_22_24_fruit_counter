@@ -11,28 +11,28 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-dark">
-    <div class="container mx-auto">
+  <body class="bg-dark mx-auto">
+    <div class="container mx-auto mt-4 ">
       <h2 class="text-light">Welcome to Fruit Counter!</h2>
-      <h4 class="text-light mt-4">
+      <h8 class="text-light mt-4 ">
         We will be calculating the total fruits we get after placing a number of
         them in a basket over a number of days.
-      </h4>
+      </h8>
       <div class="Day">
-        <label class="text-light mt-4"">Enter no. of days:</label>
-        <input id="days" class="form-control" />
+        <label class="text-light mt-4">Enter no. of days:</label>
+        <input id="days" class="form-control w-25"/>
       </div>
       <br />
       <div class="Fruit">
         <label class="text-light">Enter no. of fruits:</label>
-        <input id="fruits" class="form-control" />
+        <input id="fruits" class="form-control w-25"/>
       </div>
       <br />
       <div class="Answer">
         <label class="text-light">Answer:</label>
         <h3 id="result" class="text-light">?</h3>
       </div>
-      <button class="btn btn-primary mt-4" type="button" onclick="countFruit()">
+      <button class="btn btn-primary mt-4 w-25" type="button" onclick="countFruit()">
         calculate
       </button>
     </div>
